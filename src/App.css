@@ -1,0 +1,46 @@
+/* https://colorhunt.co/ */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #aed1f4;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  overflow: hidden;
+}
+
+/* Styling Header component*/
+
+/* Styling App component */
+.wrapper {
+  padding: 20px 30px;
+  position: relative;
+  height: 350px;
+  width: 900px;
+}
+
+.hm {
+  margin-top: -15px;
+}
+
+/* Styling Hangman component */
+
+
+/* Styling WrongLetters component */
+
+/* Styling Word component */
+
+
+/* Styling Popup component */
+
+
+/* Styling Notification component */
+

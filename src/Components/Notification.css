@@ -1,0 +1,19 @@
+.notification-container {
+  background-color: black;
+  margin-left: 690px;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -70px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.notification-container p {
+  color: white;
+  margin: 0;
+  font-size: 25px;
+  border: 6px solid red;
+  border-radius: 30px;
+}
+.notification-container.show {
+  transform: translateY(-70px);
+}

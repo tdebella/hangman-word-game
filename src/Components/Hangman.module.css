@@ -1,0 +1,29 @@
+.hangman-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 10px;
+  stroke-linecap: round;
+  background: linear-gradient(
+    90deg,
+    rgba(24, 161, 203, 1) 30%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(253, 172, 0, 1) 80%
+  );
+
+  width: 50vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+}
+.hangman-part {
+  display: none;
+}
+
+.btn {
+  background-color: orangered;
+  border: 4px solid black;
+  color: #fff;
+  padding: 20px 40px;
+}

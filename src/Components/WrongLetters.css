@@ -1,0 +1,25 @@
+.wrong-letters-container {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 30px;
+  margin-top: 35px;
+  margin-left: 650px;
+  padding: 30px;
+}
+
+.wrong-letters-container p {
+  margin: 0 0 15px;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.wrong-letters-container span {
+  font-size: 30px;
+}
